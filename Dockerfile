@@ -2,7 +2,8 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
-WORKDIR /app
+# this is just demo
+WORKDIR /app 
 
 # install required packages for system
 RUN apt-get update \
